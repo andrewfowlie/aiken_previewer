@@ -1,0 +1,12 @@
+Here is an example $$F = ma$$
+A) $$10$$.
+B) $$-10$$.
+C) $$100$$.
+D) $$-100$$.
+ANSWER: A
+Here is another example $$E = mc^2$$
+A) $$5$$.
+B) $$-5$$.
+C) $$25$$.
+D) $$-25$$.
+ANSWER: C
