@@ -1,6 +1,6 @@
 """
-Preview a question written for Learning Mall in the Aitken format
-=================================================================
+Preview a question written for Learning Mall in the Aiken format
+================================================================
 """
 
 import re
@@ -13,7 +13,7 @@ LATEX = {
     "text.usetex": True,
     "font.family": "serif",
     "font.size": 20,
-    "text.latex.preamble": r'\usepackage{amsfonts,amssymb,setspace}'
+    "text.latex.preamble": r'\usepackage{amsfonts,amssymb}'
 }
 
 plt.rcParams.update(LATEX)
