@@ -22,7 +22,7 @@ plt.rcParams.update(LATEX)
 def parse_file(file_name):
     with open(file_name) as f:
         data = f.read()
-    pairs = re.split('(ANSWER: [A-Z])', data, flags=re.IGNORECASE)
+    pairs = re.split('(ANSWER: [A-Z])', data)
     return [(q + a).strip() for q, a in zip(pairs[::2], pairs[1::2])]
 
 
